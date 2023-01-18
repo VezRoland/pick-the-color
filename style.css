@@ -44,14 +44,14 @@ button:hover {
     width: min(1250px, min(90vw, 100vh));
     display: grid;
     grid-template-columns: repeat(3, auto);
-    gap: min(15px, 2.5vw);
+    gap: min(15px, 1.5vw);
 }
 
 .color {
     aspect-ratio: 1;
     box-sizing: border-box;
     border-radius: min(15px, 3vw);
-    border: 5px solid white;
+    border: min(5px, 1.5vw) solid white;
     transition: scale 0.15s ease-in-out;
     cursor: pointer;
 }
@@ -61,9 +61,9 @@ button:hover {
 }
 
 .correct {
-    outline: 4px solid green;
+    outline: min(4px, 1vw) solid green;
 }
 
 .wrong {
-    outline: 4px solid red;
+    outline: min(4px, 1vw) solid red;
 }
