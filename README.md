@@ -19,4 +19,4 @@ Parancssorban PAT-el:
 - Feltesszük a távoli repo-ba (ez csak az első push-kor kell)
     - **git push -u origin master**
 
-[Pick The Color] (https://vezroland.github.io/pick-the-color)
+[Pick The Color](https://vezroland.github.io/pick-the-color)
